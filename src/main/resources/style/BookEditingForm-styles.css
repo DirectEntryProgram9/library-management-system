@@ -1,0 +1,14 @@
+#btnUpdate {
+    -fx-background-color: #4934FF;
+    -fx-text-fill: white;
+}
+#btnUpdate:hover, #btnUpdate:focused {
+    -fx-background-color: #2212B3 !important;
+}
+#btnDelete, #btnClose {
+    -fx-background-color: #FF5745;
+    -fx-text-fill: white;
+}
+#btnDelete:hover, #btnDelete:focused, #btnClose:hover, #btnClose:focused {
+    -fx-background-color: #A81E0E !important;
+}

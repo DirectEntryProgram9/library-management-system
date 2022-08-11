@@ -1,0 +1,14 @@
+#btnAddNewBook {
+    -fx-background-color: #01C743;
+    -fx-text-fill: white;
+}
+#btnBack {
+    -fx-background-color: #4934FF;
+    -fx-text-fill: white;
+}
+#btnAddNewBook:hover, #btnAddNewBook:focused {
+    -fx-background-color: #009420 !important;
+}
+#btnBack:hover, #btnBack:focused {
+    -fx-background-color: #2212B3 !important;
+}

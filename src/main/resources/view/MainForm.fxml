@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pneMainForm" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+   <children>
+      <AnchorPane layoutY="14.0" style="-fx-background-color: #f0f0f0; -fx-background-radius: 10;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <HBox alignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="10.0">
+               <children>
+                  <VBox>
+                     <children>
+                        <Label alignment="CENTER" text="LIBRARY MANAGEMENT">
+                           <font>
+                              <Font name="Cantarell Bold" size="37.0" />
+                           </font>
+                        </Label>
+                        <FlowPane alignment="CENTER">
+                           <children>
+                              <Label alignment="CENTER" text="SYSTEM">
+                                 <font>
+                                    <Font name="Cantarell Bold" size="37.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </FlowPane>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutY="142.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <children>
+                  <Button fx:id="btnManageBooks" mnemonicParsing="false" onAction="#btnManageBooks_OnAction" prefHeight="80.0" prefWidth="200.0" styleClass="btnMainForm" stylesheets="@../style/MainForm-styles.css" text="Manage Books">
+                     <font>
+                        <Font name="Cantarell Bold" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnManageMembers" mnemonicParsing="false" onAction="#btnManageMembers_OnAction" prefHeight="80.0" prefWidth="200.0" styleClass="btnMainForm" stylesheets="@../style/MainForm-styles.css" text="Manage Members">
+                     <font>
+                        <Font name="Cantarell Bold" size="20.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

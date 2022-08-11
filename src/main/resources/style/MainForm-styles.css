@@ -1,0 +1,14 @@
+.btnMainForm {
+    -fx-background-color: white;
+    -fx-border-color: lightgrey;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+.btnMainForm:hover, .btnMainForm:focused {
+    -fx-text-fill: #2212B3 !important;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #2212B3 !important;
+}

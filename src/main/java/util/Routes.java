@@ -1,0 +1,12 @@
+package util;
+
+public enum Routes {
+    LOGIN_FORM,
+    MAIN_FORM,
+    MANAGE_BOOKS_FORM,
+    MANAGE_MEMBERS_FORM,
+    BOOK_ADDING_FORM,
+    MEMBER_ADDING_FORM,
+    BOOK_EDITING_FORM,
+    MEMBER_EDITING_FORM
+}

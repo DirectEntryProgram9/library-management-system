@@ -1,0 +1,7 @@
+#btnLogin {
+    -fx-background-color: #4934FF;
+    -fx-text-fill: white;
+}
+#btnLogin:hover, #btnLogin:focused {
+    -fx-background-color: #2212B3 !important;
+}

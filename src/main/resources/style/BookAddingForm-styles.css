@@ -1,0 +1,7 @@
+#btnAdd {
+    -fx-background-color: #4934FF;
+    -fx-text-fill: white;
+}
+#btnAdd:hover, #btnAdd:focused {
+    -fx-background-color: #2212B3 !important;
+}
